@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/BG.jpg);
+      
+      
+}
+
+.box {
+    border-radius: 10px;
+    border: 7px solid rgba(105, 104, 102, 0.4);    
+    width: 380px;
+    height: 690px;
+    background-color: aliceblue;
+    margin: 20px auto;
+}
+
+.container {
+    margin: 10px 20px;
+}
+/*******************************************************************/
+.box-img1{
+    margin-left: 40px;
+    margin-top: 150px;
+    width: 300px;
+    height: 150px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-txt1{
+    display: inline-block;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+    border-bottom: 5px solid rgba(105, 104, 102, 0.4);
+    border-right: 5px solid rgba(105, 104, 102, 0.4);
+}
+.box-txt2{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+.roda-pe1 p{
+    text-align: center;
+    clear: both;
+    margin-top: 220px;
+    font-style: italic;
+    color: blueviolet;
+}
+@media screen and (max-width: 540px){
+    .box-img1{
+        width: 90%;
+        margin-bottom: 40px;
+        margin-top: 280px;
+        margin-left: 15px;
+    }
+    .roda-pe1 p{
+        margin-top: 340px;
+    }
+}
+/**************************************************************dentro*********************************/
+.box-tec {
+    border-bottom: 4px solid rgba(105, 104, 102, 0.4);
+    border-right: 4px solid rgba(105, 104, 102, 0.4);
+    font-style: italic;
+    
+    background-color: #f7f2e6;
+    height: 40px;
+    width: 300px;
+    margin-left: 13px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.box-tec h2 {
+    font-size: 27px;
+    margin-top: 4px;
+    margin-left: 35px;
+   
+}
+
+span {
+    font-size: 23px;
+    
+}
+/*****************************************************************/
+.box-img {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 350px;
+    height: 120px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.box-txt{
+    float: left;
+}
+
+a img {
+    border-radius: 7px;
+    margin-top: 1px;
+    margin-left: 1px;
+    border-bottom: 5px solid rgba(105, 104, 102, 0.4);
+    border-right: 5px solid rgba(105, 104, 102, 0.4);
+    width: 90px;
+    height: 90px;
+}
+
+.box-txt2 {
+    display: block;
+    margin: 2px 2px;
+    font-size: 18px;
+}
+
+.dados{
+    display: inline-block;
+    width: 86%;
+    height: 60px;
+    background-color: rgb(33, 226, 226);
+    margin: 20px 30px;
+    border-radius: 20px;
+    clear: both;
+}
+
+.box-dados{
+    width: 80px;
+    margin-left: -10px;
+    border-radius: 20px;
+}
+
+.roda-pe{
+    text-align: center;
+}
+.roda-pe p{
+    clear: both;
+    margin-top: 20px;
+    font-style: italic;
+    color: blueviolet;
+}
+
+@media screen and (max-width: 540px){
+    .box{
+        width: 513.8px;
+        height: 933.7px;
+        margin: 0;
+        border: 13px solid rgba(105, 104, 102, 0.4);
+    }
+    .box-img{
+        width: 500px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .box-tec{
+        width: 430px;
+        height: 60px;       
+        margin: 4px 22px;
+    }
+    .box-tec h2{
+        margin: 10px 30px;
+        font-size: 32px;
+    }
+    span{
+        font-size: 30px;
+    }
+    a img{
+        width: 130px;
+        height: 130px;
+    }
+    .box-txt{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .box-dados{
+        width: 85px;
+        margin-top: -3px;
+    }
+    .roda-pe p{
+        margin-top: 100px;
+    }
+}
